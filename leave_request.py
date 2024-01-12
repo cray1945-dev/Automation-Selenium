@@ -24,7 +24,7 @@ def capture_screenshot(driver, name="screenshot"):
     return screenshot_path
 
 def test_leave_request():
-    with allure.step('Step 1 : Login into PWA mitra'):
+    with allure.step('step 1 : Login into PWA mitra'):
         browser = webdriver.Chrome()
         browser.get('https://mitra.myrobin.tech')
 
