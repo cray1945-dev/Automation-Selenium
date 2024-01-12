@@ -160,11 +160,3 @@ def test_leave_request():
         time.sleep(1)
         screenshot_path = capture_screenshot(browser, name="full_screenshot")
         pass
-
-    
-            
-
-    
-
-
-
